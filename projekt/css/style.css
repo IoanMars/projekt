@@ -229,6 +229,13 @@ h6 {
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #00A4E5;
+    border: 0;
+}
+
+.our_button:hover {
+    opacity: .9;
+    text-decoration: underline;
+    animation-delay: 1.5ms;
 }
 
 .content_bottom {
@@ -267,6 +274,14 @@ h6 {
     font-family: OpenSans;
     font-size: 13px;
     background-color: #00A4E5;
+    border: 0;
+    color: #FFF;
+}
+
+.sity_button:hover {
+    opacity: .9;
+    text-decoration: underline;
+    animation-delay: 1.5ms;
 }
 
 .input {
@@ -299,6 +314,13 @@ h6 {
     font-family: OpenSans;
     font-size: 13px;
     text-transform: uppercase;
+    border: 0;
+}
+
+.button_bottom:hover {
+    opacity: .9;
+    text-decoration: underline;
+    animation-delay: 1.5ms;
 }
 
 .input_h6 {
