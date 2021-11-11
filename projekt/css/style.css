@@ -385,6 +385,7 @@ h6 {
     font-size: 11px;
     text-transform: uppercase;
     color: #FFF;
+    margin-left: 71px;
 }
 
 .box_link {
@@ -441,6 +442,7 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 58px;
 }
 
 .contakt_box_text {
@@ -449,11 +451,15 @@ h6 {
     font-family: OpenSans;
     font-size: 11px;
     line-height: 13px;
+    margin: 0;
 }
 
 .contact_all {
+    width: 121px;
+    height: 148px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 address {
