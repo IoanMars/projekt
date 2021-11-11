@@ -14,6 +14,10 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    color: #FFF;
+}
+
 .pro {
     width: 100%;
     max-width: 1440px;
@@ -86,8 +90,7 @@ h1 {
     height: 25px;
     text-decoration: none;
     color: #48555B;
-    opacity: .75;
-    transition: opacity .2s linear;
+    text-transform: uppercase;
 }
 
 .nav_link:hover {
@@ -337,22 +340,137 @@ h6 {
     height: 240px;
     background-color: black;
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .box_left {
     width: 250px;
     height: 148px;
     color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .company {
     font-family: OpenSans;
     font-size: 11px;
+    margin-top: 0;
+    line-height: 13px;
 }
 
-.text_box_lef {
+.logo_bottom {
+    width: 102px;
+    height: 23px;
+}
+
+.text_text_box{
+    height: 250px;
+    height: 76px;
+}
+
+.text_box_left {
     font-family: OpenSans;
     font-size: 11px;
+    line-height: 19px;
+}
+
+.box_links {
+    width: 262px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.box_link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.links_bottom_text {
+    text-transform: uppercase;
+    font-family: OpenSans;
+    font-size: 11px;
+    margin-top: 0;
+}
+
+.links_remember {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links_five {
+    width: 76px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: OpenSans;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.fuck {
+    width: 52px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 25px;
+    margin-left: 34px;
+}
+
+.wlog{
+    width: 62px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 25px;
+    margin-left: 38px;
+}
+
+.box_contact {
+    width: 141px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contakt_box_text {
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.contact_all {
+    display: flex;
+    flex-direction: column;
+}
+
+address {
+    font-family: OpenSans;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFF;
+}
+
+.box_right {
+    width: 87px;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 46px;
+    margin-right: 276px;
 }
 
 .hz {
